@@ -1,0 +1,137 @@
+@media only screen and (min-width:40rem){
+
+    .hero{
+        border:1px solid red;
+        padding:0;
+        box-shadow:0px 0px 20px #083D77;
+        margin-bottom:5%;
+        margin-left:3%;
+    }
+    button{
+        display: none;
+    }
+    #noHide{
+        display: flex;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9dc5c+66,f4fffd+100 */
+background: #f9dc5c; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #f9dc5c 66%, #f4fffd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #f9dc5c 66%,#f4fffd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #f9dc5c 66%,#f4fffd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dc5c', endColorstr='#f4fffd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding-left:4%;
+        border:none;
+        margin-left:0;
+        border-radius:0px;
+        box-shadow:0px 1px 8px #888;
+    }
+    #noHide li a{
+        color:black;
+        text-shadow: 2px 1px 8px rgb(163, 163, 163);
+        font-size: 16px;
+    
+    }
+    nav{
+        padding:0;
+        margin-bottom:60px;
+    }
+    .navs{
+        padding:0;
+    }
+    a{
+        padding:10px;
+    }
+    main{
+        border-left:2px solid black;
+        border-right: 2px solid black;
+    
+
+    }
+    #noHide a:hover{
+        background-color: #ED254E;
+        padding-top:17px;
+        padding-bottom:18px;
+        padding-left:10px;
+        padding-right:10px;
+        color:white;
+        text-shadow: none;
+        box-shadow: 1px 1px 3px #083D77;
+    }
+    .mission{
+        border:2px solid black;
+        padding:10px;
+        margin-left:3%;
+        margin-right:3%;
+        background-color:#ccc;
+   
+
+    }
+    .mission h2{
+        text-align: center;
+        text-shadow: 0px 0px 6px #ED254E, 0px 2px 8px black;
+        border:1px solid #f9dc5c;
+        margin-left:35%;
+        margin-right:35%;
+        color:white;
+        border-radius: 20px;
+        background-color: white;
+        background-color:#083D77;
+    }
+    .breakdown{
+        margin-top:5%;
+        border: 2px solid black;
+        margin-left:3%;
+        margin-right:3%;
+        margin-bottom:5%;
+        background-color:#ccc;
+    
+    }
+    .breakdown h2{
+        text-align: center;
+        text-shadow: 0px 0px 6px #ED254E, 2px 2px 8px black;
+        border:1px solid #f9dc5c;
+        margin-left:35%;
+        margin-right:35%;
+        color:white;
+        border-radius: 20px;
+        background-color:#083D77;
+    }
+.parallax{
+    background-image: url("https://gardnerchris.github.io/rsz_studio.jpg");
+    width: 900px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    margin-top:10%;
+    margin-bottom:5%;
+    box-shadow: 0px 0px 10px #083D77;
+
+
+}
+.para h2{
+    margin-left:38%;
+    margin-right:35%;
+    position:absolute;
+    transition-property: all;
+    text-align: center;
+    padding:15px;
+    margin-top:-1%;
+    border:1px solid black;
+    background-color:#465362;
+   text-shadow: 0px 5px 5px #ED254E;
+   transition:border-radius 7s ease-in, color 3s ease-in, box-shadow ease-in 3s, text-shadow 3s ease-in, background-color 3s ease-in; 
+   border-radius:50px;
+   background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #ffffff 0%, #6e859e 12%, #465362 25%, #465362 48%, #465362 48%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #ffffff 0%,#6e859e 12%,#465362 25%,#465362 48%,#465362 48%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #ffffff 0%,#6e859e 12%,#465362 25%,#465362 48%,#465362 48%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#465362',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   box-shadow: 0px 0px 10px #083D77;
+   color:white;
+    font-size: 1.8em;
+   
+  
+}
+}

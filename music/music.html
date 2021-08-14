@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <style href="js/index.js"></style>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/art-1861482_640.png">
+        <h1>The Gardner Experience</h1>
+        <h3>"Music is a garden, dig it."</h3>
+    </header>
+    <nav class="navs">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="noHide" class="hide">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="hardware/hardware.html">Hardware</a></li>
+            <li><a href="software/software.html">Software</a></li>
+            <li><a href="music/music.html">Music</a></li>
+            <li><a href="chat/chat.html">Chat</a></li>
+            <li><a href="contact/contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <div style="margin:12px auto;">
+    
+        <!-- Insert to your webpage where you want to display the audio player -->
+        <div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:0px auto 0px;">
+            <ul class="amazingaudioplayer-audios" style="display:none;">
+                <li data-artist="Christopher Gardner" data-title="Insert Moment Here" data-album="" data-info="" data-image="audios/sodaSprings.jpg" data-duration="206">
+                    <div class="amazingaudioplayer-source" data-src="audios/Insert%20Moment%20Here.mp3" data-type="audio/mpeg" ></div>
+                </li>
+                <li data-artist="Christopher Gardner" data-title="It will be great!" data-album="" data-info="" data-image="audios/rsz_1pexels-mabel-amber-125457.jpg" data-duration="108">
+                    <div class="amazingaudioplayer-source" data-src="audios/It%20will%20be%20great%21.mp3" data-type="audio/mpeg" ></div>
+                </li>
+                <li data-artist="Christopher Garnder" data-title="Roll Credits" data-album="" data-info="" data-image="audios/rsz_pexels-tstudio-7098157.jpg" data-duration="206">
+                    <div class="amazingaudioplayer-source" data-src="audios/Roll%20Credits%20%281%29.mp3" data-type="audio/mpeg" ></div>
+                </li>
+            </ul>
+            <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="html5 mp3 player">music player for website</a></div>
+        </div>
+        <!-- End of body section HTML codes -->
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+     WebFont.load({
+    google: {
+      families: ['Lora', 'Montserrat']
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+h1{
+      font-family: 'Lora';
+      margin:0 auto;
+      padding-top:24px;
+}
+h2{
+    font-family: 'lora';
+}
+h3{
+    font-family:'Montserrat';
+    margin:0 auto;
+    margin-left:9%;
+    font-style: italic;
+    
+}
+header{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,6e859e+9,465362+25,465362+48,465362+48 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #ffffff 0%, #6e859e 9%, #465362 25%, #465362 48%, #465362 48%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #ffffff 0%,#6e859e 9%,#465362 25%,#465362 48%,#465362 48%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #ffffff 0%,#6e859e 9%,#465362 25%,#465362 48%,#465362 48%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#465362',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color:#F4FFFD;
+    text-shadow: 0px 0px 5px #ED254E;
+    padding-bottom:2%;
+}
+.logo{
+    width: 55px;
+    float:left;
+    margin-left:4%;
+    padding:10px;
+
+}
+body{
+     margin:0;      
+}
+main{
+    max-width: 960px;
+    margin:0 auto;
+
+}
+footer{
+    background-color: #465362;
+    color:#F4FFFD;
+    padding:10px;
+    text-align: center;
+}
+.hero{
+    padding-top:10%;
+    width: 900px;
+    margin:0 auto;
+
+}
+nav{
+    font-family: 'Montserrat';
+    
+
+}
+.navs{
+    padding:20px;
+}
+nav button{
+    float:left;
+    border:none;
+    margin-left:5px;
+    font-size:15px;
+    padding:5px 10px;
+    box-shadow: 0px 0px 10px #888;
+    margin-top:-15px;
+}
+#noHide li a{
+    text-shadow: 0px 0px 10px white;
+}
+#noHide{
+    list-style: none;
+    background-color: #083D77;
+    margin:0;
+    margin-left:20px;
+    line-height: 25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+    border: solid 2px #ED254E;
+}
+.hide{
+    display:none;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+
+}
+p{
+    font-family: 'Montserrat';
+}
+.breakdown ul li{
+    font-family: 'Montserrat';
+}
